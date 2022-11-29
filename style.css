@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: rgb(255, 140, 0);
+    padding-left: 70px;
+    text-decoration: none;
+}
+
+.navbar {
+    display: inline-block;
+    padding-left: 300px;
+}
+
+
+.navbar a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 1rem;
+    color: black;
+
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../image/b2.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    background-color:white;
+    height: 18rem;
+}
+
+.home .content {
+    text-align: center;
+    width: 60rem;
+    padding-bottom: 15rem;
+}
+
+.home .content h3 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content h3 span {
+    color: rgb(255, 123, 7)
+}
+
+.home .content p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.features h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.features .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    gap: 1rem;
+}
+
+.features .container .box {
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    border: 1px rgba(0, 255, 191, 0.885) solid;
+}
+
+
+
+.features .container .box img {
+    margin: 1rem 0;
+    height: 10rem;
+}
+
+.features .container .box h3 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.features  h1 span {
+    color: rgb(255, 123, 7)
+}
+
+.features .container .box p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+#primage {
+    height: 12rem;
+}
+
+.price {
+    font-size: 1.2rem;
+}
+
+.categories .container-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.categories .container-box .cate-box {
+    padding: 30px;
+    background: #fff;
+    text-align: center;
+    border: 1px rgba(0, 255, 191, 0.885) solid;
+}
+
+
+.categories .container-box .cate-box img {
+    margin: 1rem 0;
+    height: 10rem;
+}
+
+.categories .container-box .cate-box h3 {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.categories h1 span {
+    color: rgb(255, 123, 7)
+}
+
+.categories .container-box .cate-box p {
+    font-size: 1rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.categories h1 {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+
+#foot {
+    height: 50px;
+    width: 160px
+}
+
+
+.footer-container h1 {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.footer-container h1 span {
+    color:rgb(255, 123, 7);
+}
+
+
+.social img {
+    height: 65px;
+    width: 70px
+}
